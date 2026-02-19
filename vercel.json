@@ -1,0 +1,9 @@
+{
+     "buildCommand": "turbo run build",
+     "installCommand": "yarn install",
+     "functions": {
+       "apps/web/app/api/**/*.ts": {
+         "maxDuration": 300
+       }
+     }
+   }
