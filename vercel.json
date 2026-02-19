@@ -4,11 +4,11 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "functions": {
-    "apps/web/app/api/**/*.ts": {
-      "maxDuration": 300
+    "**/*.ts": {
+      "maxDuration": 60
     },
-    "apps/web/pages/api/**/*.ts": {
-      "maxDuration": 300
+    "**/*.tsx": {
+      "maxDuration": 60
     }
   }
 }
